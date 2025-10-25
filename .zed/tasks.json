@@ -1,0 +1,24 @@
+[
+	{
+		"label": "Debug",
+		"command": "just",
+		"args": ["debug"],
+		"reveal_target": "center",
+		"hide": "on_success",
+		"tags": ["debug"]
+	},
+	{
+		"label": "Show System Profiles",
+		"command": "nh",
+		"args": ["os", "info"],
+		"reveal_target": "center",
+		"tags": ["info"]
+	},
+	{
+		"label": "Format Files",
+		"command": "just",
+		"args": ["format"],
+		"hide": "on_success",
+		"tags": ["format"]
+	}
+]
