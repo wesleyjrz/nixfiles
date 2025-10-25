@@ -1,0 +1,11 @@
+{
+	"diagnostics.disable": [
+		"undefined-global",
+		"lowercase-global",
+		"codestyle-check",
+		"spell-check"
+	],
+	"runtime.path": ["lua/?.lua", "lua/?/init.lua"],
+	"diagnostics.globals": ["vim"],
+	"workspace.checkThirdParty": false
+}

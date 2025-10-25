@@ -1,0 +1,12 @@
+[
+  {
+    "label": "Debug",
+    "command": "just",
+    "args": ["debug"],
+    "reveal_target": "center",
+    "hide": "on_success",
+    "shell": "system",
+    "show_summary": true,
+    "show_command": true
+  }
+]
